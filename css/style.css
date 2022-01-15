@@ -1,0 +1,199 @@
+/* Common css starts */
+html {
+    scroll-padding-top: 113px;
+}
+
+body {
+    font-size: 18px;
+    color: white;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Nunito', sans-serif;
+}
+
+.navbar-toggler {
+    background: #f6c71e;
+}
+
+.section-header {
+    display: inline-block;
+    color: #fff;
+    font-size: 40px;
+    text-align: center;
+    border-bottom: 2px solid #fff;
+    margin-bottom: 4rem !important;
+}
+
+.section-pad {
+    padding: 80px 0px;
+}
+
+.font-nunito {}
+
+/* Common css ends */
+
+/* header section starts */
+header {
+    background-color: #222323;
+}
+
+.c-menu {
+    text-align: right;
+}
+
+.c-menu li a {
+    display: inline-block;
+    color: #ffdf2b !important;
+    margin: 0px 8px;
+    font-size: 18px;
+    border-bottom: 1px solid transparent;
+    transition: all .5s ease-in-out;
+    text-transform: uppercase;
+}
+
+.c-menu li a:hover {
+    border-bottom: 1px solid;
+}
+
+.c-menu li:last-child a {
+    margin: 0px 0px;
+}
+
+/* header section ends */
+/* banner section starts */
+.banner {
+    background-image: url('../images/banner.png');
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+
+}
+
+.for-margin {
+    padding: 50px 0 250px;
+}
+
+.banner-head {
+    font-size: 55px;
+    color: #f6c71e;
+
+}
+
+.ride-btn {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    background: #f6c71e;
+    border: 1px solid #f6c71e;
+    padding: 8px 20px;
+    border-radius: 10px;
+    transition: all .5s ease-in-out;
+}
+
+.ride-btn:hover {
+    color: #f6c71e;
+    background: transparent;
+}
+
+.car {
+    display: inline-block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    animation: movingcar 3s forwards;
+
+}
+
+@keyframes movingcar {
+    from {
+        left: -400px;
+    }
+
+    to {
+        left: 38%;
+    }
+}
+
+/* banner section ends */
+/* ridee with us starts */
+.ride-with-us {
+    background-image: url('../images/ride.png');
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.ride-with-us .col-lg-10 {
+    padding: 50px;
+}
+
+form {
+    border: 2px solid #f6c71e;
+}
+
+.form-control:focus {
+    border-color: #ffc800;
+    box-shadow: 0 0 0 1px rgb(246 199 30);
+}
+
+/* ride with us ends */
+/* faqs section starts */
+.faqs {
+    background: #000000;
+}
+
+.faqs .col-lg-10,
+.contact-us .row {
+    padding: 50px;
+    border: 1px solid #f6c71e;
+    background: #222323;
+    box-shadow: -1px 4px 11px #f6c71e, -2px -3px 9px #f6c71e;
+}
+
+.faqs .section-header {
+    color: #fff;
+}
+
+.accordion-button {
+    color: #f6c71e;
+    font-weight: 600;
+    background: #222323;
+}
+
+.accordion-button:focus {
+    border-color: none;
+    box-shadow: none;
+}
+
+.accordion-body {
+    background: #222323;
+}
+
+.accordion-button:not(.collapsed) {
+    color: #111d3b !important;
+    background-color: #f6c71e !important;
+}
+
+.accordion-button::after {
+    background-color: #f6c71e;
+}
+
+/* faqs section ends */
+/* contact us starts */
+.contact-us {}
+
+.contact-us .row {
+    box-shadow: -1px 4px 11px #222323, -2px -3px 9px #222323;
+    border-color: #222323;
+}
+
+.contact-us .c-col-1 h3 {}
+
+
+.contact-us .c-col-1 p i {
+    margin-right: 20px;
+}
+
+/* contact us ends */

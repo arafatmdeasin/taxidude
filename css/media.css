@@ -1,0 +1,145 @@
+ /* Extra small devices (portrait phones, less than 576px) */
+ @media (max-width: 575.98px) {
+     .c-menu li a {
+         margin: 0;
+     }
+
+     .for-margin {
+         padding: 30px 0 30px;
+     }
+
+     .banner-head {
+         font-size: 30px;
+     }
+
+     .car {
+         display: none;
+     }
+
+     .section-pad {
+         padding: 40px 0px;
+     }
+
+     .section-pad {
+         padding: 40px 0px;
+     }
+
+     .section-header {
+         font-size: 25px;
+         margin-bottom: 2rem !important;
+     }
+
+     form {
+         padding: 0 !important;
+         border: none;
+     }
+
+     iframe {
+         display: none;
+         ;
+     }
+
+     .faqs .col-lg-10,
+     .contact-us .row {
+         padding: 20px 0px;
+     }
+
+     .ride-with-us .col-lg-10 {
+         padding: 20px 12px;
+     }
+
+     .contact-us .row,
+     .faqs .col-lg-10 {
+         box-shadow: none;
+         border-color: #f6c71e;
+
+     }
+
+ }
+
+ /* Small devices (landscape phones, 576px and up) */
+ @media (min-width: 576px) and (max-width: 767.98px) {
+     .c-menu li a {
+         margin: 0;
+     }
+
+     .for-margin {
+         padding: 30px 0 30px;
+     }
+
+     .banner-head {
+         font-size: 35px;
+     }
+
+     .car {
+         display: none;
+     }
+
+     .section-pad {
+         padding: 40px 0px;
+     }
+
+     .section-header {
+         font-size: 25px;
+         margin-bottom: 2rem !important;
+     }
+
+     form {
+         padding: 0 !important;
+         border: none;
+     }
+
+     .faqs .col-lg-10,
+     .contact-us .row {
+         padding: 20px 0px;
+     }
+
+     .ride-with-us .col-lg-10 {
+         padding: 20px 12px;
+     }
+ }
+
+ /* Medium devices (tablets, 768px and up) */
+ @media (min-width: 768px) and (max-width: 991.98px) {
+     .c-menu li a {
+         margin: 0;
+     }
+
+     .banner-head {
+         font-size: 50px;
+     }
+
+     @keyframes movingcar {
+         from {
+             left: 0;
+         }
+
+         to {
+             left: 25%;
+         }
+     }
+
+     .section-pad {
+         padding: 60px 0px;
+     }
+
+ }
+
+ /* Large devices (desktops, 992px and up) */
+ @media (min-width: 992px) and (max-width: 1199.98px) {
+     @keyframes movingcar {
+         from {
+             left: 0;
+         }
+
+         to {
+             left: 30%;
+         }
+     }
+ }
+
+ /* Extra large devices (large desktops, 1200px and up) */
+ @media (min-width: 1200px) and (max-width: 1399.98px) {}
+
+ /* Extra extra large devices (EXTRA large desktops, 1200px and up) */
+ @media (min-width: 1400px) {}
